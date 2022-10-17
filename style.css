@@ -91,7 +91,7 @@
     top: -1px;
     right: -2px;
     width: 80px;
-    height: 50px;
+    height: 50.5px;
     border-radius: 50px;
     position: absolute;
     background-color: #D2A1A2;
@@ -100,7 +100,7 @@
 }
 .input div:nth-child(3)::before {
     content: "";
-    top: 11px;
+    top: 11.5px;
     right: 35px;
     width: 2px;
     height: 15px;
