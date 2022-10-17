@@ -72,14 +72,14 @@
     line-height: 1.75;
 }
 .input {
-    width: 27em;
     display: flex;
-    position: relative;
+    align-items: center;
+}
+.input-wrapper {
+    width: 27em;
     margin-left: 200px;
     border-radius: 50px;
     border: 1px solid #9A6B69;
-    align-items: center;
-    justify-content: space-between;
 }
 .input input {
     width: 100%;
@@ -88,38 +88,38 @@
     padding: 15px 25px;
     background-color: transparent;
 }
-.input div:nth-child(2) {
-    top: -1px;
-    right: -2px;
+.input-button {
+    z-index: 1;
     width: 80px;
     height: 50px;
-    border-radius: 50px;
-    position: absolute;
-    background-color: #D2A1A2;
     cursor: pointer;
+    position: relative;
+    border-radius: 50px;
+    margin-left: -75px;
+    background-color: #D2A1A2;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
-.input div:nth-child(3)::before {
+.input-button div::before {
     content: "";
-    top: 11.5px;
+    top: 12.25px;
     right: 35px;
     width: 2px;
     height: 15px;
     position: absolute;
+    border-radius: 5px;
     transform: rotate(-45deg);
     background-color: #FFFFFF;
-    cursor: pointer;
 }
-.input div:nth-child(3)::after {
+.input-button div::after {
     content: "";
-    bottom: 12px;
+    bottom: 12.25px;
     right: 35px;
     width: 2px;
     height: 15px;
     position: absolute;
+    border-radius: 5px;
     transform: rotate(45deg);
     background-color: #FFFFFF;
-    cursor: pointer;
 }
 
 /* RIGHT IMAGE */
@@ -182,14 +182,8 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
-    .input {
+    .input-wrapper {
         width: 20em;
-        display: flex;
-        position: relative;
         margin-left: 0px;
-        border-radius: 50px;
-        border: 1px solid #9A6B69;
-        align-items: center;
-        justify-content: space-between;
     }
 }
