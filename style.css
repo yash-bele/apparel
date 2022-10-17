@@ -102,7 +102,7 @@
 }
 .input-button div::before {
     content: "";
-    top: 12.5px;
+    top: 12.75px;
     right: 35px;
     width: 2px;
     height: 15px;
@@ -113,7 +113,7 @@
 }
 .input-button div::after {
     content: "";
-    bottom: 12.5px;
+    bottom: 12.75px;
     right: 35px;
     width: 2px;
     height: 15px;
