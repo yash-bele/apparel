@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500&display=swap');
+
 *,::before,::after {
     margin: 0px;
     padding: 0px;
@@ -18,8 +19,8 @@
     width: 60%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     position: relative;
+    flex-direction: column;
     background: linear-gradient(136deg, #FCF3F3, #FFFFFF, #FAF1F0);
 }
 .logo {
@@ -34,8 +35,8 @@
     height: 30px;
     margin-right: 10px;
     border-radius: 100%;
-    background-color: transparent;
     border: 2px solid #E7A09E;
+    background-color: transparent;
 }
 .logo h5 {
     font-size: 15px;
@@ -51,9 +52,9 @@
     font-size: 57px;
     font-weight: 400;
     color: #5F5A5A;
+    line-height: 1.25;
     margin-left: 200px;
     letter-spacing: 10px;
-    line-height: 1.25;
 }
 .content .heading-wrapper h5:nth-child(1) {
     font-weight: 300;
@@ -67,12 +68,13 @@
     width: 35.5em;
     font-size: 13px;
     color: #9A6B69;
+    line-height: 1.75;
     margin-left: 200px;
     margin-bottom: 35px;
-    line-height: 1.75;
 }
 .input {
     display: flex;
+    width: fit-content;
     align-items: center;
 }
 .input-wrapper {
@@ -91,20 +93,20 @@
 .input-button {
     z-index: 1;
     width: 80px;
-    height: 50.5px;
     border: none;
+    height: 50.5px;
     cursor: pointer;
     position: relative;
-    border-radius: 50px;
     margin-left: -75px;
+    border-radius: 50px;
     background-color: #D2A1A2;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .input-button div::before {
-    content: "";
-    top: 12.75px;
-    right: 35px;
     width: 2px;
+    content: "";
+    right: 35px;
+    top: 12.75px;
     height: 15px;
     position: absolute;
     border-radius: 5px;
@@ -112,11 +114,11 @@
     background-color: #FFFFFF;
 }
 .input-button div::after {
-    content: "";
-    bottom: 12.75px;
-    right: 35px;
     width: 2px;
+    content: "";
+    right: 35px;
     height: 15px;
+    bottom: 12.75px;
     position: absolute;
     border-radius: 5px;
     transform: rotate(45deg);
@@ -151,16 +153,16 @@
     }
     .left-content {
         width: 100%;
-        align-items: center;
         text-align: center;
+        align-items: center;
     }
     .content {
         height: 100%;
+        display: flex;
         margin-top: 20px;
         margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: space-evenly;
     }
     .content .heading-wrapper h5 {
@@ -177,10 +179,10 @@
     .content p {
         width: 30em;
         font-size: 12px;
-        margin-left: 0px;
-        margin-bottom: 0px;
         line-height: 1.5;
         margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
         margin-bottom: 20px;
     }
     .input-wrapper {
