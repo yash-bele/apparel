@@ -143,10 +143,10 @@
         text-align: start;
     }
     .res-image {
-        width: 400px;
+        width: 500px;
         height: 500px;
         margin-top: 90px;
-        background: url(./assets/image.png) no-repeat center 48% / 25em;
+        background: url(./assets/image.png) no-repeat center 48.5% / 25em;
     }
     .container {
         overflow: hidden;
