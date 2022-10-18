@@ -144,9 +144,9 @@
     }
     .res-image {
         width: 400px;
-        height: 400px;
+        height: 500px;
         margin-top: 90px;
-        background: url(./assets/image.png) no-repeat center 47% / 25em;
+        background: url(./assets/image.png) no-repeat center 48% / 25em;
     }
     .container {
         overflow: hidden;
